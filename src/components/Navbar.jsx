@@ -16,6 +16,12 @@ export default function Navbar() {
             <HumbergerMenuIcon />
           </button>
         </div>
+        <div className="md:flex gap-8 text-neutral-700 font-semibold items-center hidden">
+          <a href="#">Shop</a>
+          <a href="#">New Arrivals</a>
+          <a href="#">Sale</a>
+          <a href="#">Blog</a>
+        </div>
 
         <div className="md:flex md:gap-6 items-center order-3 md:order-none">
           <SearchIcon />
